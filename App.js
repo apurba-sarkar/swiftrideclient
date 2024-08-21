@@ -16,10 +16,10 @@ export default function App() {
         <NavigationContainer>
           <Stack.Navigator
             initialRouteName="LoadingScreen"
-            options={{ headerShown: false }}
+          
           >
-            <Stack.Screen name="LodingScreen" component={LoadingScreen} />
-            <Stack.Screen name="WelcomeScreen" component={WelcomeScreen} />
+            <Stack.Screen name="LodingScreen" component={LoadingScreen}   options={{ headerShown: false }} />
+            <Stack.Screen name="WelcomeScreen" component={WelcomeScreen}   options={{ headerShown: false }} />
           </Stack.Navigator>
         </NavigationContainer>
       </SafeAreaView>
