@@ -10,6 +10,7 @@ import ProfileTabScreen from "./ProfileTabScreen";
 import { NavigationContainer } from "@react-navigation/native";
 import LoginScreen from './LoginScreen';
 import RegScreen from './RegScreen';
+import OtpPage from "./OtpPage";
 const Tab = createBottomTabNavigator();
 const WelcomeScreen = () => {
   const da = false;
@@ -21,6 +22,7 @@ const WelcomeScreen = () => {
           <Tab.Screen name="Profile" component={ProfileTabScreen}  options={{ headerShown: false }}/>
           <Tab.Screen name="Login" component={LoginScreen}  options={{ headerShown: false }}/>
           <Tab.Screen name="Reg" component={RegScreen}  options={{ headerShown: false }}/>
+          <Tab.Screen name="otp" component={OtpPage}  options={{ headerShown: false }}/>
         </Tab.Navigator>
 
     

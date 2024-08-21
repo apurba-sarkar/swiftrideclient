@@ -37,7 +37,7 @@ const LoginScreen = ({navigation}) => {
         Login
       </Button>
       <View style={styles.center}>
-        <Text>Or</Text>
+        <Text>or</Text>
       </View>
       <Button
         mode="outlined"
